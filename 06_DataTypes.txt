@@ -1,0 +1,41 @@
+Java - statically typed
+
+Primitive data types -
+
+int - 32 bit signed integer - %d
+Range - (-2^31 to 2^31 - 1) i.e -2147483648 to 2147483647
+
+long - 64 bit signed integer - %d
+Range - (-2^63 to 2^63 - 1)
+
+byte - 8 bit signed integer - %d
+Range - (-2^7 to 2^7 - 1)
+
+short - 16 bit signed integer - %d
+Range - (-2^15 to 2^15 - 1)
+
+float - %f
+double - %f
+char - %c
+boolean - %b
+
+Format Specifiers - 
+
+%[flag][width][(.)precision]conversion_character
+
+Identifiers -
+
+1. Should not start with a digit, it can start with an aplhabet.
+
+2. No other special character is allowed except underscore(_) and a dollar sign($)
+
+3. No whitespaces. (First Name -> Invalid, firstName -> Valid)
+
+4. Keywords should not be used again.
+
+5. Case Sensitive i.e firstName, FIRSTNAME are 2 different variables.
+
+A name given to
+1. Variable
+2. A function (method)
+3. A class
