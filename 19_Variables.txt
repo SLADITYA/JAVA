@@ -1,0 +1,20 @@
+We can create variables of 3 different types. (Local, Instance, Static)
+
+Local variables - Inside a class also inside a method. Scope is within the block/ method scope.
+
+Instance variables (non - static) - Inside a class outside the method without static. Belongs to instances of that class. 
+
+Scope - Inside the same class & outside the class with an instance.
+
+Static/ class variables - Inside a class outside a method with static keyword.
+
+Scope - Inside the class, outside the class with classname directly.
+--------------------------------------------------------------------------------------------------------------------------
+
+Static and Non - Static :-
+
+If you are able to access class members directly by using class name that means those members are static.
+
+If you need to create an instance to access class members then they are non-static or instance.
+
+Note: static members can also be accessed using object.
