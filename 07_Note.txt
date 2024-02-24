@@ -1,0 +1,3 @@
+String is a class which belongs to the "java.lang" package. "java.lang" is imported by default to every java program.
+
+Some classes in java.lang package - String, Math, Integer, Float.
