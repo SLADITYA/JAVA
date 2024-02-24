@@ -1,0 +1,19 @@
+datatype array_name[size];
+
+2 Ways
+
+1. Java Style - datatype[] array_name = new datatype[size];
+
+Ex - int[] arr = new int[10];
+double[] doubleArr = new double[5];
+char[] name = new char[20];
+
+2. C Style - datatype array_name[] = new datatype[size];
+
+// initializing an array - int[] arr = {10, 20, 30, 40, 50};
+
+arr[3] = 40
+arr[0] = 10
+arr[5] = Array index out of bounds
+
+Arrays -> Java.util.
