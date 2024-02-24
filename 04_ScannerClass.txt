@@ -1,0 +1,17 @@
+Built_in class belongs to a package
+
+Package in java is a collection of classes
+
+Scanner -> java.util.
+
+Scanner class has some methods that can be used to read input from the console
+
+nextInt() -> Used to read integers
+nextFloat() -> Used to read float values
+nextDouble() -> Used to read double values
+next() -> To read a string without spaces
+nextLine() -> To read a string with spaces
+
+Note - There is no method readily available to read character from the user.
+
+next().charAt(0) -> Reads the character at 0th index.
