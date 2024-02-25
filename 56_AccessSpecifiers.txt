@@ -1,0 +1,8 @@
+ACCESS MODIFIERS
+
+ACCESS SPECIFER -                              PUBLIC          PACKAGE-PRIVATE         PRIVATE         PROTECTED
+
+WITHIN THE SAME CLASS                           Yes             Yes                     Yes             Yes
+WITHIN OTHER CLASSES IN SAME PACKAGE            Yes             Yes                     No              Yes
+WITHIN OTHER CHILD CLASSES IN OTHER PACKAGE     Yes             No                      No              Yes
+WITHIN OTHER CLASSES IN OTHER PACKAGE           Yes             No                      No              No
