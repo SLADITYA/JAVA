@@ -1,0 +1,26 @@
+Wrapper Class - To provide the object representation for primitive types
+
+Present in java.lang package
+
+Primitive types             Wrapper class
+
+int                         Integer
+float                       Float
+char                        Character
+double                      Double
+long                        Long
+boolean                     Boolean
+byte                        Byte
+short                       Short
+
+Primitive types cannot be used in collections like HashMap and HashSets
+
+Wrapper classes can be used in collections like HashMaps and HashSets
+
+ArrayList<> -> Dynamic array in java
+HashMap<>
+HashSet<>
+
+Auto Boxing - Automatic conversion that java compiler does between a primitive type and its wrapper class
+
+Auto Unboxing - Automatic conversion that java compiler does between a wrapper class object and its primitive type
