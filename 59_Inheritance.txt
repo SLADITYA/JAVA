@@ -1,0 +1,15 @@
+INHERITANCE - The mechanism where one class obtains the features from another class.
+
+extends is the keyword we use for inheritance
+
+Super class / Parent class / Base class -> From which ever the class you are obtaining the features
+
+Sub class / Child class / Derived class -> From which ever the class that is obtaining the features
+
+class A extends Z {} -> A => Sub class, Z => Super class
+
+class Student extends Person{} -> Student => Child class, Person => Parent class
+ 
+If you create an instance of a child class the default constructor of parent class is also invoked.
+
+Note - Inheritance -> "is a" relationship
