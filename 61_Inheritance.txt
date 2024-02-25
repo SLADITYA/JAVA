@@ -1,0 +1,47 @@
+TYPES OF INHERITANCE
+
+1. Single Inheritance - Here, a subclass inherits from only one superclass.
+
+       +-------------+
+       |  Superclass |
+       +------+------+   
+              |
+       +------v------+
+       | Subclass    |
+       +-------------+
+
+2. Hierarchical Inheritance - Here, multiple subclasses inherit from a single superclass.
+
+              +-------------+
+              |  Superclass |
+              +------+------+   
+              |      |      |
+         +------+----v------------+
+         | Subclass1    Subclass2 |
+         +-------------+----------+
+
+3. Multilevel Inheritance - Here, a subclass becomes a superclass for another class.
+
+       +-------------+
+       | Grand Parent|
+       +------+------+   
+              |
+       +------v------+
+       |   Parent    |
+       +------+------+  
+              |
+       +------v------+
+       |    Child    |
+       +-------------+
+
+4. Multiple Inheritance - Here, a subclass inherits from more than one superclass.
+
+Not supported through classes, supported through the concept of interfaces.
+
+       +-------------+      +-------------+
+       |  Superclass1|      |  Superclass2|
+       +------+------+      +------+------+ 
+              |                    |
+       +------v------+      +------v------+
+       | Subclass    |      | Subclass    |
+       +-------------+      +-------------+
