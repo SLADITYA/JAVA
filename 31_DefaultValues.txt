@@ -1,0 +1,38 @@
+Uninitialised variables - Variables that are declared but not assigned with any value.
+
+int a;
+double b;
+static int x;
+
+The behaviour of un-initialised variables -
+
+int a;  
+cout << a;    // The value of a would be some garbage value
+printf("%d", a);
+
+In Java, Uninitialised variables are defaulted to some value based on their data-type.
+
+Datatype            Default Value
+
+int                 0
+short               0
+byte                0
+long                0L
+float               0.0f
+double              0.0
+char                null char
+boolean             false
+
+String              null
+
+For any reference type, i.e for any object the default value is null.
+
+Note - Java compiler doesn't assign default values to local variables.
+
+Uninitialised arrays -
+
+int[] arr1 = new int[10];   // Default values - {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+
+String[] names = new String[5];    // Default values - {null, null, null, null, null}
+
+boolean arr2 = new boolean[4];    // Default values - {false, false, false, false}
