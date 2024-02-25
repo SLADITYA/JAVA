@@ -1,0 +1,14 @@
+CONSTRUCTOR
+
+Constructor is a special METHOD which is in general used to initialize the instance variables of a class.
+
+Constructors are always triggered (invoked) right when you are creating an instance of the class.
+
+1. Constructor name should be same as class name
+2. Constructors should not have any return types
+
+new Cat()
+new Student()
+
+1. Default Constructor (No parametric constructor)
+2. Parametric Constructor (Parameterised constructor)
