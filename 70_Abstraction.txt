@@ -1,0 +1,19 @@
+Abstraction in Java
+
+Abstraction is nothing but hiding some details and showing only the details that are necessary.
+
+1. Abstract Class
+
+An abstract method is a method without body.
+
+Abstract methods can be created by adding a keyword 'abstract' in front of the method
+
+If a class contains at least one abstract method then you have to make the class also as abstract.
+
+You cannot create instances for an abstract class.
+
+Abstract classes can also contains concrete methods (Methods with body).
+
+The major use is abstract classes can be used in inheritance. A class which inherits from an abstract class should provide the implementation of the abstract methods.
+
+If a child class fails to provide implementation for all the abstract methods in the parent class, the child class should also be made as abstract.
