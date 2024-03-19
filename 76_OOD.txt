@@ -1,0 +1,13 @@
+OOD -> Object Oriented Design (Important for a Software Developer Engineer)
+
+SOLID Principles -> Robert C Martin (Uncle Bob)
+
+S -> SRP (Single Responsibility Principle)
+O -> Open/Closed
+L -> LSP (Liskov's Substitution Principle)
+I -> Integration Segregation
+D -> Dependency Inversion
+
+Books written by Uncle Bob -> Clean Code, Clean Architecture
+
+These principles make a developer a Good Developer
