@@ -1,0 +1,18 @@
+1. You can achieve 100 % abstraction, using interfaces.
+
+2. Java doesn't support Multiple - Inheritance using classes
+
+3. Interfaces support Multiple - Inheritance.
+
+4. Interfaces contain only abstract methods
+
+5. You need to write only the declaration of the methods in the interfaces.
+
+6. classes can implement interface using 'implements' keyword.
+
+7. The class that implements an interface should provide concrete implementation of the methods in the interface.
+
+interface MyInterface
+{
+    methods
+}
